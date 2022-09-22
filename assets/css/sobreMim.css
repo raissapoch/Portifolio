@@ -1,0 +1,21 @@
+.sobreMim{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 5rem 10rem 10rem 10rem;
+}
+
+.sobreMim__titulo{
+    border-bottom: .1rem solid var(--bege);
+    padding-top: .5rem;
+    font-family: var(--fonte__principal);
+    font-size: 2rem;
+
+}
+
+.sobreMim__paragrafo{
+    font-family: var(--fonte__secundaria);
+    font-size: 1rem;
+    text-align: justify;
+}

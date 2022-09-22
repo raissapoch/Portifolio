@@ -1,0 +1,10 @@
+:root{
+    --fonte__principal: 'Satisfy', cursive;
+    --fonte__secundaria: 'Roboto', sans-serif;
+    --rose: #c89f9c;
+    --bege: #f4efe9;
+}
+
+body{
+    background: linear-gradient(var(--rose), var(--bege));
+}
