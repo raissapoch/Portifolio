@@ -3,11 +3,11 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 24px;
+    padding: .5rem 1rem 1rem 1rem;
 }
 
 .cabecalho__imagem{
-    height: 10rem;
+    height: 150px;
 }
 
 .cabecalho__menu{
