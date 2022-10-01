@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="assets/css/cabecalho.css">
         <link rel="stylesheet" href="assets/css/conteudo.css">
         <link rel="stylesheet" href="assets/css/sobreMim.css">
+        <link rel="stylesheet" href="assets/css/projetos.css">
         <link rel="stylesheet" href="assets/css/rodape.css">
 
 
@@ -19,6 +20,8 @@
     </head>
 
     <body>
+
+        <!-- menu -->
         <header class="cabecalho">
             <img class="cabecalho__imagem" src="assets/img/logo.png" alt="logo">
             <nav class="cabecalho__menu">
@@ -28,7 +31,9 @@
                 <a href="#projetos" class="cabecalho__menu--item">Projetos</a>
             </nav>
         </header>
+        <!-- fim do menu -->
 
+        <!-- pagina home -->
         <main class="conteudo">
 
             <section id= "home"class="conteudoPrincipal">
@@ -44,7 +49,9 @@
                 </div>
                 <img class="conteudoPrincipal__imagem" src="assets/img/home.png" alt="Menina sentada envolta por itens de tecnologia">
             </section>
+            <!-- fim da pagina home -->
 
+            <!-- sobre mim -->
             <section id="sobre">
                 <div class="sobreMim__conteudo">
                     <img class="sobreMim__imagem" src="assets/img/sp-image.png" alt="imagem de uma menina">
@@ -64,13 +71,51 @@
                     </div>
                 </div>
             </section>
+            <!-- sobre mim -->
+
+            <!-- Projetos -->
+            <Section id="projetos">
+                
+                <div class="projetos__conteudo projetos">
+
+                    <h2 class="projetos__titulo">Projetos</h2>
+
+                    <div class="projetos__itens">
+                      <div class="itens">
+                        <div class="itens__background"><p class="projetos__itens--texto">EM BREVE</p></div>
+                      </div>
+                      <div class="itens">
+                        <div class="itens__background"><p class="projetos__itens--texto">EM BREVE</p></div>
+                      </div>
+                      <div class="itens">
+                        <div class="itens__background"><p class="projetos__itens--texto">EM BREVE</p></div>
+                      </div>
+                      <div class="itens hidden__itens">
+                        <div class="itens__background"><p class="projetos__itens--texto">EM BREVE</p></div>
+                      </div>
+                      <div class="itens hidden__itens">
+                        <div class="itens__background"><p class="projetos__itens--texto">EM BREVE</p></div>
+                      </div>
+                      <div class="itens hidden__itens">
+                        <div class="itens__background"><p class="projetos__itens--texto">EM BREVE</p></div>
+                      </div>
+                    </div>
+          
+                    <div class="projetos__botao--conteudo">
+                      <button onclick="hiddenElements()" class="projetos__botao" id="projeto__botao">Ver Mais</button>
+                    </div>
+
+                  </div>
+            </Section>
+            <!-- Projetos -->
         </main>
 
         <footer class="rodape">
             <p class="rodape__texto">Desenvolvido com muito &#128420; por Raíssa Poch</p>
         </footer>
 
-        <script src="main.js"></script>
+        <script src="assets/js/scroll.js"></script>
+        <script src="assets/js/hidden-itens.js"></script>
 
     </body>
 </html>
