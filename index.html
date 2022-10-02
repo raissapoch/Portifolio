@@ -4,6 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Inter:wght@400;700&family=Roboto&family=Satisfy&display=swap" rel="stylesheet">
@@ -13,6 +14,7 @@
         <link rel="stylesheet" href="assets/css/conteudo.css">
         <link rel="stylesheet" href="assets/css/sobreMim.css">
         <link rel="stylesheet" href="assets/css/projetos.css">
+        <link rel="stylesheet" href="assets/css/projetosCard.css">
         <link rel="stylesheet" href="assets/css/rodape.css">
 
 
@@ -82,21 +84,30 @@
 
                     <div class="projetos__itens">
                       <div class="itens">
+                        <div class="card tamanho__card border__card">
+                            <img src="assets/img/projeto_escritorio.png" class="card-img-top tamanho__imagem" alt="imagem do site do escritorio">
+                            <div class="card-body card__background--color">
+                              <h5 class="titulo__card">Site Escritório de Advocacia</h5>
+                              <p class="texto__card">Desenvolvido em Wordpress.</p>
+                              <div class="d-grid gap-2 col-6 mx-auto">
+                                <a href="https://poch.adv.br/" class="btn button">Visitar Site</a>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="itens background">
                         <div class="itens__background"><p class="projetos__itens--texto">EM BREVE</p></div>
                       </div>
-                      <div class="itens">
+                      <div class="itens background">
                         <div class="itens__background"><p class="projetos__itens--texto">EM BREVE</p></div>
                       </div>
-                      <div class="itens">
+                      <div class="itens background hidden__itens">
                         <div class="itens__background"><p class="projetos__itens--texto">EM BREVE</p></div>
                       </div>
-                      <div class="itens hidden__itens">
+                      <div class="itens background hidden__itens">
                         <div class="itens__background"><p class="projetos__itens--texto">EM BREVE</p></div>
                       </div>
-                      <div class="itens hidden__itens">
-                        <div class="itens__background"><p class="projetos__itens--texto">EM BREVE</p></div>
-                      </div>
-                      <div class="itens hidden__itens">
+                      <div class="itens background hidden__itens">
                         <div class="itens__background"><p class="projetos__itens--texto">EM BREVE</p></div>
                       </div>
                     </div>
@@ -114,6 +125,7 @@
             <p class="rodape__texto">Desenvolvido com muito &#128420; por Raíssa Poch</p>
         </footer>
 
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
         <script src="assets/js/scroll.js"></script>
         <script src="assets/js/hidden-itens.js"></script>
 

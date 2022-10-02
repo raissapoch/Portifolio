@@ -1,0 +1,34 @@
+.tamanho__card{
+    height: 20rem;
+    width: 25rem;
+}
+
+.border__card{
+    border: none;
+}
+
+.card__background--color{
+    background-color: var(--bege);
+}
+
+.tamanho__imagem{
+    width: 100%;
+    height: 50%;
+}
+
+.titulo__card{
+    font-family: var(--fonte__secundaria);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.texto__card{
+    font-family: var(--fonte__secundaria);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.button{
+    background-color: var(--rose);
+    color: var(--bege);
+}

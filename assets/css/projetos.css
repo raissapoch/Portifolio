@@ -23,7 +23,6 @@
 }
 
 .itens{
-    background-color: var(--bege);
     height: 20rem;
     width: 25rem;
     border-radius: 20px;
@@ -35,21 +34,26 @@
     transition: ease-in-out 0.3s;
 }
 
+.background{
+    background-color: var(--bege);
+}
+
 .hidden__itens {
     display: none;
 }
 
 .itens__background{
     background-color: var(--rose);
-    width: 1000rem;
+    width: 100rem;
     text-align: center;
     padding: 5% 0;
 }
 
 .projetos__itens--texto{
     font-family: var(--fonte__principal);
-    font-size: 20px;
+    font-size: 1.5rem;
     color: var(--bege);
+    margin: 0;
 }
 
 .projetos__botao--conteudo{
@@ -60,13 +64,12 @@
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    gap: 35px;
 }
 
 .projetos__botao {
     font-family: var(--fonte__secundaria);
-    padding: 10px 100px;
-    border-radius: 25px;
+    padding: 1rem 5rem;
+    border-radius: 20px;
     cursor: pointer;
     color: var(--bege);
     background-color: var(--rose);
