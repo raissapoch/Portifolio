@@ -15,22 +15,36 @@
         <link rel="stylesheet" href="assets/css/projetos.css">
         <link rel="stylesheet" href="assets/css/projetosCard.css">
         <link rel="stylesheet" href="assets/css/rodape.css">
-
-
-        <title>Portifólio - Raíssa Poch</title>
     </head>
 
     <body>
 
-        <!-- menu -->
-        <header class="cabecalho">
-            <img class="cabecalho__imagem" src="assets/img/logo.png" alt="logo">
-            <nav class="cabecalho__menu">
-                <a href="#home" class="cabecalho__menu--item">Home</a>
-                <a href="#sobre" class="cabecalho__menu--item">Sobre</a>
-                <a href="#cursos" class="cabecalho__menu--item">Cursos</a>
-                <a href="#projetos" class="cabecalho__menu--item">Projetos</a>
-            </nav>
+      <!-- menu -->
+        <header>
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid cabecalho">
+              <a class="navbar-brand" href="#"><img class="cabecalho__imagem" src="assets/img/logo.png"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link cabecalho__menu--item" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link cabecalho__menu--item" href="#sobre">Sobre</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link cabecalho__menu--item" href="#cursos">Cursos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link cabecalho__menu--item" href="#projetos">Projetos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         </header>
         <!-- fim do menu -->
 
@@ -124,7 +138,7 @@
             <p class="rodape__texto">Desenvolvido com muito &#128420; por Raíssa Poch</p>
         </footer>
 
-        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
         <script src="assets/js/scroll.js"></script>
         <script src="assets/js/hidden-itens.js"></script>
 
