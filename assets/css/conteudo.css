@@ -84,3 +84,26 @@
     
 }
 
+@media screen and (max-width: 480px) {
+    
+    .conteudoPrincipal__escrito--titulo{
+        text-align: center;
+    }
+
+    .conteudoPrincipal__escrito--subtitulo{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .conteudoPrincipal__botão--linkedin{
+        padding: .3rem .5rem;
+    }
+
+    .conteudoPrincipal__botão--github{
+        padding: .3rem .5rem;
+    }
+
+    .conteudoPrincipal__imagem{
+        display: none;
+    }
+}
