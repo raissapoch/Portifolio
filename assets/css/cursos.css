@@ -1,0 +1,25 @@
+.cursos__conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+
+.cursos__titulo{
+    border-bottom: .1rem solid var(--rose);
+    padding-top: .5rem;
+    font-family: var(--fonte__principal);
+    font-size: 3rem;
+}
+.curso__botao {
+    border: none;
+    width: 5%;
+}
+
+@media screen and (min-width: 480px) {
+
+    .cursos__conteudo{
+        margin: 0 25rem 10rem 25rem;
+    }
+    
+}

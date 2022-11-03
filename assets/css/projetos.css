@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 5rem 0 0 0;
 }
 
 .projetos__titulo{
@@ -79,7 +79,6 @@
 
 @media screen and (max-width: 480px) {
     .projetos__conteudo{
-        margin-top: 0;
         padding: 1rem;
     }
 }
